@@ -1,55 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
-html {
+* {
   font-family: 'Nunito', sans-serif;
+  margin: 0;
 }
 
 body {
   background-color: #130f0d;
   color: white;
+  padding: 1rem;
 }
 
 .boards {
   display: flex;
-  margin-top: 32px;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .board {
   background-color: #141316;
   border: 1px solid #fd951f11;
-  border-radius: 4px;
+  border-radius: 0.4rem;
 }
 
 .board > h3 {
-  padding: 16px;
-  margin: 0;
+  padding: 1rem;
   color: #fd951fcc;
 }
 
 .dropzone {
-  padding: 16px;
-  min-width: 282px;
-  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+  min-width: 18rem;
+  min-height: 16rem;
 }
 
 .card {
   background-color: #1a1a1c;
-  padding: 16px;
-  box-shadow: 0 2px 2px -1px #fd951fcc;
-  width: 250px;
-  margin: 25px 0;
-  border-radius: 4px;
+  padding: 1rem;
+  border: 1px solid #fd951f11;
+  box-shadow: 0 0 0.4rem #00000011;
+  width: 16rem;
+  border-radius: 0.4rem;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .status {
-  width: 30px;
-  height: 8px;
+  width: 2rem;
+  height: 0.5rem;
   background-color: gray;
-  margin-bottom: 16px;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .status.green {
