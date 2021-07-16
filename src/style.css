@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #130f0d;
+  background-color: #121212;
   color: white;
   padding: 1rem;
 }
@@ -18,14 +18,14 @@ body {
 }
 
 .board {
-  background-color: #141316;
-  border: 1px solid #fd951f11;
+  background-color: #212121;
+  border: 1px solid #111111;
   border-radius: 0.4rem;
 }
 
 .board > h3 {
   padding: 1rem;
-  color: #fd951fcc;
+  color: #BF360C;
 }
 
 .dropzone {
@@ -39,41 +39,38 @@ body {
 }
 
 .card {
-  background-color: #1a1a1c;
-  padding: 1rem;
-  border: 1px solid #fd951f11;
-  box-shadow: 0 0 0.4rem #00000011;
+  background-color: #121212aa;
+  padding: 0.6rem;
+  border: 1px solid #121212;
   width: 16rem;
   border-radius: 0.4rem;
   font-weight: 600;
   font-size: 1.2rem;
 
   display: flex;
-  flex-direction: column;
   gap: 1rem;
 }
 
 .status {
-  width: 2rem;
-  height: 0.5rem;
+  width: 0.4rem;
   background-color: gray;
   border-radius: 0.5rem;
 }
 
 .status.green {
-  background-color: #23d2ac;
+  background-color: #1B5E20;
 }
 
 .status.blue {
-  background-color: #33adff;
+  background-color: #01579B;
 }
 
 .status.red {
-  background-color: red;
+  background-color: #B71C1C;
 }
 
 .highlight {
-  background-color: #fd951f08;
+  background-color: #00000044;
 }
 
 .card, .dropzone {
@@ -82,9 +79,9 @@ body {
 
 .is-dragging {
   cursor: move;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .over {
-  background-color: #4cd13711;
+  background-color: #2E7D3211;
 }
